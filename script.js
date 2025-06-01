@@ -1,3 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("FODASE");
-});
+function iniciarMissao() {
+  const status = document.getElementById("statusMissao");
+  status.textContent = "🛰️ Explorando a galáxia em busca de aventuras...";
+}
